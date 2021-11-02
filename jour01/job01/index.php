@@ -6,7 +6,6 @@ $str3 ="!"; //ex2
 $val = 6 ;//ex2_2
 //$myBool = true; //ex2_2_2
 $mybool = FALSE; //ex_2_3
-echo $firstprint;
 echo "<br>";
 echo "$str2 $str $str3"; 
 echo "<br>";
