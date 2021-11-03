@@ -30,7 +30,7 @@ retour à la ligne entre chaque nombre. Le nombre 42 doit
  ?>
     </main>
     <footer>
-        <p>Johan Bouguermouh - Runtrack2<p> 
+        <p>Johan Bouguermouh - Runtrack2 - Job01<p> 
     </footer>
 </body>
 </html>
