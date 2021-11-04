@@ -12,5 +12,5 @@ $caractère=1;
      }
      $caractère = $caractère + 1;
  }
-  echo $str ;
-  
+  echo $str;
+?>
