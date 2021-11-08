@@ -1,6 +1,6 @@
 <?php
 //ASCI majuscule code de 65 à 90
-//Si l'index 1 de str est un chre superieur ou égal à 65 && inferieur ou égale à 90 alors écrire en <g>
+//Si l'index 0 de str est un chre superieur ou égal à 65 && inferieur ou égale à 90 alors écrire en <g>
 
 $str = "Test";
 
