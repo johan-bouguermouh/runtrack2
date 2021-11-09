@@ -22,11 +22,11 @@ $alph=array(
 print_r($alph).'<br>';
 
 echo '<br><br> --GRAS-- <br>';
-$str= "test";
+$str= "ChezA";
  if(($str[0] >= $alph[26])&&($str[0] <= $alph[51])){
      echo "<br><b>$str</b>";
  }
- else echo 'Non appliquer pas dans se cas';
+ else echo 'Non appliquer dans se cas';
 /**test ok */
  echo '<br><br> --CESAR-- <br>';
 //  if($str[0] == $alph[2]){
@@ -44,10 +44,15 @@ $n =2;
          $key = $key + 1;
          //echo '<br>'.$alph[$key];
      }
-     if($str[$i]==$alph[$key]){
-         ($n = $key+$n);
+     ($n = $key+$n);
+     if(($key<26)&&($n>26)){
+        $n = $n-26;
+        echo $alph[$n];
+     }
+    elseif($str[$i]==$alph[$key]){
          echo $alph[$n];
      }
+     
      $key = 0;
      $n = 2;
     $i = $i + 1;
