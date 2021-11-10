@@ -1,0 +1,1 @@
+SELECT `prenom`,`nom`,`nassance` FROM `etudiants` WHERE `nassance` BETWEEN '1998-01-01' AND '2018-12-31'
