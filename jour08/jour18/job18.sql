@@ -1,1 +1,1 @@
-SELECT MAX(`capacite`),`salles`.nom AS 'Biggest Room' FROM `salles` INNER JOIN `etage` WHERE `etage`.id = `salles`.id
+SELECT MAX(`capacite`),`salles`.nom AS 'Biggest Room',`etage`.nom FROM `salles` INNER JOIN `etage` WHERE `etage`.id = `salles`.id
